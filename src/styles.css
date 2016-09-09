@@ -1,0 +1,36 @@
+* {
+  font-family: Arial, Helvetica, sans;
+}
+
+body {
+  background-color: #000;
+  color: #FFF;
+}
+
+.todocontainer {
+  width: 400px;
+  border: 1px dashed black;
+  padding: 10px;
+}
+
+.todolist {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.button {
+  color: white;
+  background-color: blueviolet;
+  border: 0;
+  padding: 3px 15px;
+  border-radius: 3px;
+}
+
+.button:hover {
+  text-shadow: 3px 3px 8px #FFF;
+}
+
+.button:active {
+  color: #000;
+  text-shadow: 3px 3px 8px #000;
+}
